@@ -1,0 +1,16 @@
+{
+ "cfg":"nodelist",
+ "prt":"modbus",
+ "showUnreached":1,
+ "interPollTime":"1s",
+ "postData":"udp:224.0.0.113:25826", 
+ "persistencyMinSaveInterval":300,
+ "modbusSlave":[{"ip":"0.0.0.0", "port":502}],
+// "ddt":{
+//        "maxSendTimeSeconds":14,
+//        "endpoints":[{"prio":1,"url":"http://192.168.72.83:9000/ingest/iGateData"}]
+//       },
+ "nodes":[
+          {"a":"192.168.75.203:502:2",   "type":"EM_RISH2",    "name":"EM03"}
+         ]
+}

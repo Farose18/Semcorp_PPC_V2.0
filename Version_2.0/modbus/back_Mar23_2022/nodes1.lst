@@ -1,0 +1,18 @@
+{
+ "cfg":"nodelist",
+ "prt":"modbus", 
+ "showUnreached":1,
+ "interPollTime":"15s", 
+ "postData":"udp:224.0.0.113:25826",
+ "persistencyMinSaveInterval":600,
+// "ddt":{
+//        "maxSendTimeSeconds":14,
+//        "endpoints":[{"prio":1,"url":"http://192.168.42.83:9000/ingest/iGateData"}]
+//       },
+ "nodes":[
+          {"a":"192.168.5.123:502:1",   "type":"INV",  "name":"B01_INV1"},
+          {"a":"192.168.5.123:502:2",   "type":"INV",  "name":"B01_INV2"},
+          {"a":"192.168.5.123:502:3",   "type":"INV",  "name":"B01_INV3"},
+          {"a":"192.168.5.123:503:3",   "type":"INV",  "name":"B01_INV4"}
+         ]
+}

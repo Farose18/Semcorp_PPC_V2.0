@@ -1,0 +1,164 @@
+{
+"EM":
+{
+ "dcCapacity":17436.28,
+ "prAlarmSetpoint":75,
+ "prAlarmRadSetpoint":500,
+ "prAlarmTimeSetpoint":300,
+ "prRealRadSetpoint":100,
+ "prMinRadSetpoint":500,
+ "gridVoltSetpoint":30,
+ "EM01":{
+         }
+},
+"INVERTER":
+{
+ "dcCapacity":4441.2,
+ "prAlarmSetpoint":75,
+ "prAlarmRadSetpoint":500,
+ "prAlarmTimeSetpoint":300,
+ "prRealRadSetpoint":100,
+ "prMinRadSetpoint":500,
+ "igbtHighTempSetpoint":120,
+ "alarmRadSetpoint":500,
+ "alarmTimeSetpoint":1200,
+ "overVoltageSetpoint":800,
+ "openAlarmSetpoint":70,
+ "unbalanceAlarmSetpoint":1,
+ "gridVoltSetpoint":100,
+ "cId01":24,
+ "cId02":24,
+ "cId03":24,
+ "cId04":24,
+ "cId05":24,
+ "cId06":24,
+ "cId07":24,
+ "cId08":24,
+ "cId09":24,
+ "cId10":24,
+ "cId11":24,
+ "cId12":24,
+ "cId13":24,
+ "cId14":24,
+ "cId15":24,
+ "cId16":24,
+ "cId17":24,
+ "cId18":24,
+ "cId19":24,
+ "cId20":24,
+ "cId21":24,
+ "cId22":24,
+ "cId23":24,
+ "cId24":24,
+ "cId25":24,
+ "cId26":24,
+ "cId27":24,
+ "cId28":24,
+ "cId29":24,
+ "cId30":24,
+ "cId31":24,
+ "cId32":24,
+ "cId33":24,
+ "cId34":24,
+ "cId35":24,
+ "cId36":24,
+ "cId37":24,
+ "cId38":24,
+ "cId39":24,
+ "cId40":24,
+ "cId41":24,
+ "cId42":24,
+ "cId43":24,
+ "cId44":24,
+ "cId45":24,
+ "cId46":24,
+ "cId47":24,
+ "cId48":24,
+ "INV01":{
+       "dcCapacity":4375.8
+        },
+ "INV02":{
+       "dcCapacity":4310.23
+        },
+ "INV03":{
+       "dcCapacity":4441.25
+        },
+ "INV04":{
+       "dcCapacity":4309.28
+        },
+ "INV05":{
+       "dcCapacity":4375.8
+        },
+ "INV06":{
+       "dcCapacity":4310.23
+        },
+ "INV07":{
+       "dcCapacity":4441.25
+        },
+ "INV08":{
+       "dcCapacity":4309.28
+        },
+ "INV09":{
+       "dcCapacity":4375.8
+        },
+ "INV10":{
+       "dcCapacity":4310.23
+        },
+ "B01_INV01":{
+        },
+ "B02_INV01":{
+        },
+ "B03_INV01":{
+        },
+ "B01_INV02":{
+        },
+ "B02_INV02":{
+        },
+ "B03_INV02":{
+        }
+
+},
+"IO":
+{
+ "invFanOffTime":15,
+ "roomFanOffTime":15,
+ "roomFanOffTemp":35,
+ "peripheryLightOnTime":"18:30",
+ "peripheryLightOffTime":"05:45",
+ "peripheryLightOnTimeHour":18,
+ "peripheryLightOnTimeMinute":30,
+ "peripheryLightOffTimeHour":05,
+ "peripheryLightOffTimeMinute":45,
+ "roomHighTempSetpoint":46,
+ "otiHighTempSetpoint":85,
+ "wti1HighTempSetpoint":95,
+ "wti2HighTempSetpoint":95,
+ "interconnectingVCB":1,
+ "DOAlarmSetpoint":30
+},
+"RTU":
+{
+ "cpuAlarmSetpoint":80,
+ "ramAlarmSetpoint":80
+},
+"PLANT":
+{
+ "prRealRadSetpoint": 1,
+ "totalInverters": 7,
+ "dcCapacity": 100000,
+ "totalInvertersAcCapacity": 15120,
+ "zePMinLoad": 100000,
+ "zePCriticalLoad": 95000,
+ "zePThreshold": 20,
+ "tunePStep": 1,
+ "zeMinLoad": -9,
+ "zeCriticalLoad": 10,
+ "zeThreshold": 20,
+ "zeUThreshold": 1650,
+ "zeIacMaxCmd":1370,
+ "zeIacSetCmd":1350,
+ "zePfMaxCmd":0.95,
+ "zePfSetCmd":0.96,
+ "tuneStep": 1
+ }
+}

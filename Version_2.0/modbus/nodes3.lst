@@ -1,0 +1,12 @@
+{
+ "cfg":"nodelist",
+ "prt":"modbus", 
+ "showUnreached":1,
+ "interPollTime":"1s", 
+ "postData":"udp:224.0.0.113:25826",
+ "persistencyMinSaveInterval":600,
+ "nodes":[
+          {"a":"192.168.80.157:502:1",  "type":"SINENG_INV_01", "name":"B03_INV01"}
+          //{"a":"192.168.80.167:502:1",  "type":"SINENG_INV_01", "name":"B03_INV02"}
+         ]
+}
